@@ -1,3 +1,9 @@
+@font-face {
+font-family: "LatoMedium";
+src: url("../fonts/Lato-Medium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
 * {
     box-sizing: border-box;
 }
@@ -23,12 +29,12 @@ a {
 ul {margin: 0;
     padding: 0;
     display: flex;
-   justify-content: space-between;
-   width: 631px; 
+    justify-content: space-between;
+    width: 631px; 
     list-style: none;
 }
 
-h2 {
+h2,h3 {
     margin: 0;
 }
 .menu {
@@ -62,20 +68,20 @@ h2 {
 }
 
 .texthead {
-    font-size: 72px;
+    font-size: 66px;
     font-family: "Myriad Pro", "Lato", sans-serif;
     text-transform: uppercase;
 }
 
 .textbody {
     margin: 10px;
-    font-size: 32px;
+    font-size: 28px;
     line-height: 47px;
     font-family: Georgia, 'Times New Roman', serif;
     font-style: italic;
 }
 .logo {
-    padding: 0 4px;
+    padding: 10px 6px 0px;
     display: block;
 }
 .sign {
@@ -103,4 +109,52 @@ h2 {
 .register {
     padding-left: 240px;
 }
+.login:hover,
+.register:hover {
+    color: #bdb6ff
+}
 /*header*/
+/*domain*/
+.newdomain {
+    height: 580px;
+     margin-top:87px;
+     text-align: center;
+}
+.domainhead {    
+    font-family: 'Lato', sans-serif;
+     font-size: 18px;
+     color: rgb(56,55,55);
+}
+.domaintext {
+    color:rgb(174,174,174);
+    font-size: 18px;
+}
+.table {
+    border:1px solid rgb(217,217,217);
+    width: 870px;
+    height: 196px;
+    table-layout: fixed;
+    margin: 140px auto auto;
+    border-collapse: collapse;
+    
+}
+tr,td{
+    color:rgb(224,224,224);
+     font-family: 'Lato', sans-serif;
+     font-size: 14px;
+
+ }
+.border {
+    height: 73px;
+    border-right:1px solid rgb(217,217,217);
+}
+/*footer*/
+footer {
+    height: 295px;
+    background-color:rgb(42,42,42);
+}
+.logo_footer {
+    padding: 10px 6px 0px;
+    display: block;
+    opacity: 0.15;
+}
