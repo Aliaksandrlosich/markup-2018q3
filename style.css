@@ -1,29 +1,84 @@
+* {
+    box-sizing: border-box;
+}
 html,
 body {
     height: 100%;
-}
-
-body {
     padding: 0;
     font-family: 'Lato', sans-serif;
 }
+/*header*/
 header {
     height: 1064px;
     background: linear-gradient(rgba(0, 0, 0, 0.83), rgba(0, 0, 0, 0.83)), url("image/background1.jpg");
     background-repeat: no-repeat;
     background-position: top;
+    background-size: 1600px 961px;
+    user-select: none;
+    overflow: hidden;
 }
-a{
-	text-decoration: none;
+a {
+    text-decoration: none;
+}
+ul {margin: 0;
+    padding: 0;
+    display: flex;
+   justify-content: space-between;
+   width: 631px; 
+    list-style: none;
+}
+
+h2 {
+    margin: 0;
+}
+.menu {
+    display:flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+
+}
+.navigation {
+    align-items: center;
+}
+.navigation__link {
+    display: block;
+    height: 90px;
+    line-height: 90px;
+    color: white;
+}
+
+.navigation__link:hover {
+    border-bottom: 1px solid #ffffff;
+}
+.text {
+    height: 524px;
+    margin-top: 328px;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+}
+
+.texthead {
+    font-size: 72px;
+    font-family: "Myriad Pro", "Lato", sans-serif;
+    text-transform: uppercase;
+}
+
+.textbody {
+    margin: 10px;
+    font-size: 32px;
+    line-height: 47px;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-style: italic;
 }
 .logo {
     padding: 0 4px;
-}
-.logo img {
     display: block;
 }
-.signin {
-    margin-top: 339px;
+.sign {
     display: grid;
     grid-template-columns: 50% auto;
     grid-template-rows: 121px;
@@ -43,7 +98,9 @@ a{
     text-align: end;
     padding-right: 272px;
     background-color: #203747;
+
 }
 .register {
     padding-left: 240px;
 }
+/*header*/
