@@ -26,7 +26,7 @@ header {
 a {
     text-decoration: none;
 }
-ul {margin: 0;
+header ul {margin: 0;
     padding: 0;
     display: flex;
     justify-content: space-between;
@@ -199,5 +199,13 @@ footer {
 
 .footer__link:hover {
     color:white;
+}
+footer ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 430px; 
+    list-style: none;
 }
 /*footer*/
