@@ -110,7 +110,6 @@ h2,h3 {
     text-align: end;
     padding-right: 272px;
     background-color: #203747;
-
 }
 
 .register {
@@ -208,4 +207,49 @@ footer ul {
     width: 430px; 
     list-style: none;
 }
+.bottom {
+    display:flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    height: 150px;
+    padding-top: 60px;
+    
+}
+
+.area1 {
+    color:rgb(100,100,100);
+    font-size: 15px;
+    line-height: 15px;
+    padding: 0px 80px 10px 0;
+    border-right: 1px solid rgba(255, 255, 255, 0.15);
+}
+.area2 {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    line-height: 15px;
+}
+.nav_link{
+    color:rgb(100,100,100);
+    font-size: 15px;
+    line-height: 15px;
+    padding:0 32px;
+}
+.nav_link:hover {
+    color:rgb(255,255,255);
+}
+
+.area3 {
+    border-left: 1px solid rgba(255, 255, 255, 0.15);
+    padding: 0px 0 10px 80px;
+    color:rgb(100,100,100);
+    font-size: 15px;
+    line-height: 15px;
+}
+
+
+
 /*footer*/
