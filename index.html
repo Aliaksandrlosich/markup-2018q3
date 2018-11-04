@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="shortcut icon" href="image/smile.ico" type="image/x-icon">
 </head>
 
 <body>
@@ -17,12 +18,12 @@
             </a>
 
             <ul class="navigation">
-                        <li><a class="navigation__link" href="">Home</a></li>
-                        <li><a class="navigation__link" href="">Domain</a></li>
-                        <li><a class="navigation__link" href="">Hosting</a></li>
-                        <li><a class="navigation__link" href="">Clients</a></li>
-                        <li><a class="navigation__link" href="">Blog</a></li>
-                        <li><a class="navigation__link" href="">Support</a></li>
+                        <li><a class="navigation_link" href="">Home</a></li>
+                        <li><a class="navigation_link" href="">Domain</a></li>
+                        <li><a class="navigation_link" href="">Hosting</a></li>
+                        <li><a class="navigation_link" href="">Clients</a></li>
+                        <li><a class="navigation_link" href="">Blog</a></li>
+                        <li><a class="navigation_link" href="">Support</a></li>
             </ul>
         </nav>
         
@@ -38,41 +39,76 @@
         </nav>
 
     </header>
+    <main>
               <!--Domain-->
+<!--Domain-->
  <section class="domain">
             <h3 class="domain_head">Would you like to buy a new domain ?</h3>
-            <p class="domain__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse auctor mauris
+            <p class="domain_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse auctor mauris
                 ac nulla interdum, id
                 molestier.</p>
-            <form class="domain__form" action="" method="GET">
-                <label class="domain__label-text" for="domain__input">www.</label>
-                <input class="domain__input"  type="text" placeholder="What do you want?">
-                <select class="domain__select" name="domain__select">
+            <form class="domain_form" action="" method="GET">
+                <label class="domain_label-text" for="domain_input">www.</label>
+                <input class="domain_input"  type="text" placeholder="What do you want?">
+                <select class="domain_select" name="domain_select">
                     <option value=".com">.com</option>
                     <option value=".net">.net</option>
                     <option value=".org">.org</option>
                 </select>
             </form>
             <table class="table">
-                <tbody class="table-body">
-                    <tr class="table-firstrow">
-                        <td class="table-cell">.COM</td>
-                        <td class="table-cell">1 Year</td>
-                        <td class="table-cell">$9.00 USD</td>
-                        <td class="table-cell">Transfer Price No</td>
+                <tbody class="table_body">
+                    <tr class>
+                        <td class="table_cell space">.COM</td>
+                        <td class="table_cell space">1 Year</td>
+                        <td class="table_cell space">$9.00 USD</td>
+                        <td class="table_cell">Transfer Price No</td>
                     </tr>
-                    <tr class="table-secondrow">
-                        <td class="table-cell">.NET</td>
-                        <td class="table-cell">1 Year</td>
-                        <td class="table-cell">$9.00 USD</td>
-                        <td class="table-cell">Transfer Price No</td>
+                    <tr>
+                        <td class="table_cell">.NET</td>
+                        <td class="table_cell">1 Year</td>
+                        <td class="table_cell">$9.00 USD</td>
+                        <td class="table_cell">Transfer Price No</td>
                     </tr>
                 </tbody>
             </table>
         </section>
 
 
-<div class="kek"></div>
+<section class="package"> 
+    <section class="global">
+    <section class="box basic">
+        <div class="package-circle style-basic"><i class="fas fa-anchor"></i></div>
+        <div class="package_title">basic package</div> 
+        <div class="package_info">
+         </div>
+    </section>
+    <section class="box normal">
+        <div class="package-circle style-normal"><i class="fas fa-star-half-alt"></i></div>
+        <div class="package_title">normal package</div> 
+        <div class="package_info">
+        </div>
+    </section>
+    <section class="box big">
+        <div class="package-circle style-big"><i class="fas fa-star"></i></div>
+        <div class="package_title">big package</div> 
+        <div class="package_info">
+        </div>
+    </section>
+    <section class="box biggest">
+        <div class="package-circle style-biggest"><i class="far fa-gem"></i></div>
+        <div class="package_title">biggest package</div> 
+        <div class="package_info">
+        </div>
+    </section>
+    </section>
+
+
+
+
+
+</section>
+           <!--About-->
 <section class="about">
     <section class="area_about">
         <section class="about_text">
@@ -86,7 +122,7 @@
         <section>
             <ul class="about_team">
                 <li class="team-mate">
-                    <figure class="team-mate__information">
+                    <figure class="team-mate_information">
                         <img src="image/man1.jpg" alt="Jonny Doe" width="100" height="100" class="photo">
                         <figcaption>
                             <h3 class="man_name">Jonny Doe</h3>
@@ -103,7 +139,7 @@
                 <li class="team-mate">
                     <figure>
                         <img src="image/man2.jpg" alt="Jonny Doe" width="100" height="100" class="photo">
-                        <figcaption class="team-mate__information">
+                        <figcaption class="team-mate_information">
                             <h3 class="man_name">John Doe</h3>
                             <h4 class="man_profession">Designer</h4>
                             <a href="https://www.facebook.com" title="facebook" target="blank" class="network"><i
@@ -118,7 +154,7 @@
                 <li class="team-mate">
                     <figure>
                         <img src="image/man3.jpg" alt="Jonny Doe" width="100" height="100" class="photo">
-                        <figcaption class="team-mate__information">
+                        <figcaption class="team-mate_information">
                             <h3 class="man_name">Johnathan Doe</h3>
                             <h4 class="man_profession">Designer</h4>
                             <a href="https://www.facebook.com" title="facebook" target="blank" class="network"><i
@@ -134,38 +170,57 @@
         </section>
     </section>
 </section>
-<section class="comments">
-    <section class=""></section>
-</section>
- <!--Function-->
+                        <!--comments-->
+<div class="wrapper">
+    <input type="radio" name="point" id="slide1" checked>
+    <input type="radio" name="point" id="slide2">
+    <input type="radio" name="point" id="slide3">
+    <div class="slider">
+        <div class="slides slide1"> <p>“Suspendisse tempor turpis odio, sit amet cursus leo consequat non. Maecenas lacinia faucibus enimquiinterdum
+                       interdum dolor pulvinar vitae.”</p>
+                   </div>
+        <div class="slides slide2"> <p>Если вы знаете пятнадцать иностранных языков, русский вам  необходим. Мало ли что: упадете или 
+            что-нибудь на ногу уроните.</p></div>
+        <div class="slides slide3"><p>Если женщина красивая, скажи ей, что она умная. Если она умная, скажи ей, что она красивая. 
+        В случае сомнения  скажи ей, что она похудела.</p></div>
+    </div>
+    <div class="controls">
+        <h3>John Doe</h3>
+        <label for="slide1"></label>
+        <label for="slide2"></label>
+        <label for="slide3"></label>
+    </div>
+</div>
+                                   <!--Function-->
 <section class="functions">
-            <ul class="functions__container">
-                <li class="functions__item">
-                    <div class="back-circle--orange"><i class="fas fa-bolt"></i></div>
+            <ul class="functions_container">
+                <li class="functions_item">
+                    <div class="back-circle orange"><i class="fas fa-bolt"></i></div>
                     <h3>Fast Servers</h3>
                     <p>Nulla dapibus neque augue, quis</p>
                     <p>tincidunt tortor aliquam vitae.</p>
                 </li>
-                <li class="functions__item">
-                    <div class="back-circle--blue"><i class="fas fa-cloud"></i></div>
+                <li class="functions_item">
+                    <div class="back-circle blue"><i class="fas fa-cloud"></i></div>
                     <h3>Cloud Servers</h3>
                     <p>Nulla dapibus neque augue, quis</p>
                     <p>tincidunt tortor aliquam vitae.</p>
                 </li>
-                <li class="functions__item">
-                    <div class="back-circle--gray"><i class="fas fa-arrows-alt"></i></div>
+                <li class="functions_item">
+                    <div class="back-circle gray"><i class="fas fa-arrows-alt"></i></div>
                     <h3>Domain Transfer</h3>
                     <p>Nulla dapibus neque augue, quis</p>
                     <p>tincidunt tortor aliquam vitae.</p>
                 </li>
-                <li class="functions__item">
-                    <div class="back-circle--red"><i class="fas fa-comments"></i></div>
+                <li class="functions_item">
+                    <div class="back-circle red"><i class="fas fa-comments"></i></div>
                     <h3>Live Support</h3>
                     <p>Nulla dapibus neque augue, quis</p>
                     <p>tincidunt tortor aliquam vitae.</p>
                 </li>
             </ul>
 </section>
+</main>
                             <!--Footer-->
 <footer>
     <nav class="menu_footer">
@@ -174,11 +229,11 @@
             </a>
 
             <ul class="navigation_footer">
-                        <li><a class="footer__link" href="">HOME</a></li>
-                        <li><a class="footer__link" href="">ABOUT US</a></li>
-                        <li><a class="footer__link" href="">BLOG</a></li>
-                        <li><a class="footer__link" href="">POLICITY</a></li>
-                        <li><a class="footer__link" href="">CONTACTS</a></li>
+                        <li><a class="footer_link" href="">HOME</a></li>
+                        <li><a class="footer_link" href="">ABOUT US</a></li>
+                        <li><a class="footer_link" href="">BLOG</a></li>
+                        <li><a class="footer_link" href="">POLICITY</a></li>
+                        <li><a class="footer_link" href="">CONTACTS</a></li>
             </ul>
     </nav>
     
@@ -213,7 +268,5 @@
     </article>
 
 </footer>
-
 </body>
-
 </html>
